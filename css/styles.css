@@ -1,0 +1,11 @@
+.section-presentation {
+    background-image: url(../assets/fondo-1.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 500px;
+    background: orange;
+}
+
+.section-presentation h2 {
+    color: white;
+}
