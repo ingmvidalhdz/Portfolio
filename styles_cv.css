@@ -28,11 +28,12 @@
 
 .container {
     background: rgb(53, 53, 53);
+    height: 190vh;
 }
 
 .cv {
     width: 80%;
-    height: 110vh;
+    height: 180vh;
     background: white;
 }
 
@@ -45,6 +46,7 @@
 .section-left {
     width: 30%;
     background: linear-gradient(rgb(225, 0, 255), rgb(0, 176, 230));
+    height: 100%;
 }
 
 .photo {
@@ -96,7 +98,6 @@
     background: -webkit-linear-gradient(rgb(0, 176, 230), rgb(225, 0, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #000;
 }
 
 .profile-title h3 {
@@ -116,6 +117,11 @@
 .academic-formation,
 .profesional-experience {
     width: 90%;
+}
+
+.formation-plus {
+    width: 30%;
+    display: inline-block;
 }
 
 .summary h2,
@@ -138,6 +144,11 @@
     display: inline-block;
 }
 
+.lang-list {
+    width: 80%;
+}
+
+.lang-list ul li,
 .list-skills ul li {
     font-size: 17px;
     font-family: Jetbrains;
@@ -156,8 +167,8 @@
 .exp-1,
 .exp-2,
 .exp-3 {
-    display: inline-block;
-    float: left;
+    border: 1px solid black;
+    margin-top: 20px;
 }
 
 .exp-desc-container {
@@ -179,4 +190,14 @@
 .exp-desc-container h3 {
     font-size: 15px;
     margin: 10px auto;
+}
+
+.exp-container,
+.activities-exp {
+    display: inline-block;
+}
+
+.activities-exp ul li {
+    font-size: 15px;
+    font-family: JetBrains;
 }
